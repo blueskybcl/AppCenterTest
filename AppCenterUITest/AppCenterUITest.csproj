@@ -59,5 +59,15 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AppCenterTest\AppCenterTest.Android\AppCenterTest.Android.csproj">
+      <Project>{0c47a71b-3e9b-4346-831d-bb9ed6e55cba}</Project>
+      <Name>AppCenterTest.Android</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AppCenterTest\AppCenterTest.iOS\AppCenterTest.iOS.csproj">
+      <Project>{0700982a-1068-419e-81b0-f4bd6cd11e30}</Project>
+      <Name>AppCenterTest.iOS</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
