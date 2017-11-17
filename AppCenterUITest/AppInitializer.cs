@@ -14,6 +14,10 @@ namespace AppCenterUITest
             {
                 return ConfigureApp
                     .Android
+                    .ApkFile(@"D:\AllProjects\Exercise\AppCenterTest\AppCenterTest\AppCenterTest.Android\bin\Debug\com.bcl.AppCenterTest.apk")
+                    .DeviceSerial("")
+                    .PreferIdeSettings()
+                    .EnableLocalScreenshots()
                     .StartApp();
             }
 

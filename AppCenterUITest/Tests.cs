@@ -26,9 +26,9 @@ namespace AppCenterUITest
         }
 
         [Test]
-        public void AppLaunches()
+        public void CreditCardNumber_TooShort_DisplayErrorMessage()
         {
-            app.Screenshot("First screen.");
+            app.Repl();
         }
     }
 }
